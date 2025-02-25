@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Work+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- swipper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+
+    <!-- swipper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css ">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <h4>Nusantara <b>Gemilang</b></h4>
+        </div>
+
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+
+        <div>
+            <input class="signin" type="submit" value="signin" name="signin">
+            <input class="signup" type="submit" value="signup" name="signup">
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-content" id="home">
+            <div class="hero-left">
+                <h2>mengahdirkan kelezatan <br> Nusantara</h2>
+                <p>Restoran yang menghadirkan bumbu <br> nusantara kaya akan rasa</p>
+            </div>
+            <button>order now</button>
+            <div class="hero-right">
+                <img src="asset/Quinoa_Salad_with_Roasted_Squash__Caramelized_Onions_and_Wilted_Spinach-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+           <div class="judul">
+                <div class="isi">
+                    <h2>Food Is An <br> Important Part Of A Balanced Diet</h2>
+                <p>
+                    Theactualy assured me over and over that <br> 
+                    take little time off and come back and work. <br>
+                    Fast forward taw weeks after. we are going for a new project <br>
+                    I wrote to let them know ready to come back they kicked <br>
+                    me of their team slack all of us are make company email <br>
+                </p>
+                </div>
+                <div class="slider-container">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="asset/25 Healthy & Easy Buddha Bowl Recipes - Choosing Chia.jpg" width="400px" height="450px">
+                        </div>
+                        <div class="slide">
+                            <img src="asset/Bananenbrot Granola Rezept _ gesund & einfach - Healthy Dreams.jpg" width="400px" height="450px">
+                        </div>
+                        <div class="slide">
+                            <img src="asset/Easy Chicken and Broccoli - The Salty Marshmallow.jpg" width="400px" height="450px">
+                        </div>
+                        <div class="slide">
+                            <img src="asset/Skinny Chicken and Roasted Potato Bowl.jpg" width="400px" height="450px">
+                        </div>
+                    </div>
+                    <script>
+                        // Script untuk membuat slide berpindah otomatis
+                        let slideIndex = 0;
+                        showSlides();
+                      
+                        function showSlides() {
+                          let i;
+                          const slides = document.getElementsByClassName("slide");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {
+                            slideIndex = 1;
+                          }
+                          slides[slideIndex - 1].style.display = "block";
+                          setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+                        }
+                      </script>
+                </div>
+           </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <section class="work">
+            <div class="work-content">
+                <div class="subjudul1">
+                    <i class="ph ph-bag-simple"></i>
+                    <h3>Pick Meals</h3>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind texts.</p> 
+                </div>
+    
+                <div class="subjudul2">
+                    <i class="ph ph-hand-pointing"></i>
+                    <h3>Choose How Often</h3>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind texts.</p> 
+                </div>
+    
+                <div class="subjudul3">
+                    <i class="ph ph-lightning"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind texts.</p> 
+                </div>
+            </div>
+        </section>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="judul">
+            <h1>Explore Our Best Menu</h1>
+        </div>
+        <div class="isi">
+            <p>its through mistakes that you actually can grow you get rid of <br> everything that is not essensial to makhihave to get bad</p>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+              <div class="card"> <!-- Card 1 -->
+                <img src="asset/menu/charlesdeluvio-wr8Ze_O-sjI-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Rose Muffen 12$ </h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐⭐</p>
+                  <button>patty and more</button>
+                </div>
+              </div>
+
+              <div class="card"> <!-- Card  -->
+                <img src="asset/menu/ella-olsson-KPDbRyFOTnE-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Salads Special 10$ </h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐</p>
+                  <button>patty and more</button>
+                </div>
+              </div>
+
+              <div class="card"> <!-- Card  -->
+                <img src="asset/menu/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Egg Muffen 14$</h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐⭐⭐</p>
+                  <button>patty and more</button>
+
+                </div>
+              </div>
+              <!-- Add more cards as needed -->
+            </div>
+          </div>
+        </div>  
+
+        <div class="slider-container 2">
+            <div class="slider">
+              <div class="card"> <!-- Card 1 -->
+                <img src="asset/menu/louis-hansel-cdR6i9i4jwI-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Rose Muffen 12$ </h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐⭐⭐⭐</p>
+                  <button>patty and more</button>
+                </div>
+              </div>
+
+              <div class="card"> <!-- Card  -->
+                <img src="asset/menu/romain-briaux-G7eI_KNp7iw-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Salads Special 10$ </h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐⭐</p>
+                  <button>patty and more</button>
+                </div>
+              </div>
+
+              <div class="card"> <!-- Card  -->
+                <img src="asset/menu/sebastian-coman-photography-Co-T6odt0es-unsplash.jpg" alt="Image 1">
+                <div class="card-content">
+                  <h3>Egg Muffen 14$</h3>
+                  <p>Serve with Frenc Fries + Drink <br>Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp <br></p>
+                  <p>⭐⭐⭐⭐</p>
+                  <button>patty and more</button>
+                </div>
+              </div>
+              <!-- Add more cards as needed -->
+            </div>
+          </div>
+        </div>  
+    </section>
+    <section class="contact" id="contact">
+        <div class="slider-container">
+            <div class="slider">
+              <div class="card"> <!-- Card 1 -->
+                <div class="card-content">
+                    <div class="hari">
+                        <h2>Today</h2>
+                        <p>10:00 am - 7:00 pm</p>
+                        <p>Working Hours</p>
+                      </div>
+    
+                      <div class="lokasi">
+                        <h2>location</h2>
+                        <p>Poras Street 07</p>
+                        <p>Get Directions</p>
+                      </div>
+    
+                      <div class="no">
+                        <h2>call</h2>
+                        <p>(0251) 8376 674</p>
+                        <p>Call Online</p>
+                      </div>
+                    </div>
+                </div>
+          </div>
+        </div>  
+        <div class="map">
+            <!-- Tempatkan peta atau iframe Google Maps di sini -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d0.000000!3d0.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMDDCsDE2JzU2LjciTiAwMMKwMzAnMTUuMyJF!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-left">
+          <h2>Foodies</h2>
+        </div>
+        <div class="footer-center">
+            <p>2023 @All rights reserved by nama masing-masing</p>
+        </div>
+        <div class="right">
+            <i class="ph ph-instagram-logo"></i>
+            <i class="ph ph-facebook-logo"></i>
+            <i class="ph ph-twitter-logo"></i>
+        </div>
+      </footer>
+          
+</body>
+</html>

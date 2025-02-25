@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'work sans',sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding: 20px 0;
+    color: black;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+nav .signin {
+    background: transparent;
+    border: none;
+}
+
+nav .signup {
+    background-color: #FFE382;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    height: 300px;
+}
+
+.hero .hero-content .hero-left {
+    margin-left: 99px;
+}
+
+.hero .hero-content .hero-left h2 {
+    font-size: 50px;
+    letter-spacing: -0.2px;
+    line-height: 85px;
+}
+
+.hero .hero-content .hero-left p {
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.hero .hero-content button {
+    background-color: #FFE382;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 99px;
+    margin-top: 8px;
+}
+
+.hero .hero-content .hero-right {
+    display: block;
+    width: 100%;
+}
+
+.hero .hero-content .hero-right img {
+    width: 400px;
+    height: auto;
+    position: right;
+    animation: rotate 10s linear infinite;
+    margin-left: 771px;
+    margin-top: -359px;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.about {
+    background-color: #FFE382;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    height: 350px;
+}
+
+.about .about-content .judul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about .about-content .judul .isi h2 {
+    font-size: 50px;
+    letter-spacing: -0.2px;
+    line-height: 75px;
+}
+
+.about .about-content .judul .isi p {
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.about .about-content .slider-container .slides .slide img {
+    text-align: left;
+    margin-right: 830px;
+    margin-left: 99px;
+    justify-content: center;
+    border-radius: 33% 67% 21% 79% / 62% 39% 61% 38% ;
+    width: 350px; /* Sesuaikan lebar dan tinggi gambar sesuai kebutuhan Anda */
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+
+.about .about-content .slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.about .about-content .slider-container .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about .about-content .slider-container .slides {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+
+.work {
+    background-color:#fff;
+    background-size: cover;
+    background-position: center;
+    padding: 68px 0;
+}
+
+.work .work-content .subjudul1 h1 {
+    color: black;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 60px;
+}
+
+.work .work-content .isi1 p {
+    margin-bottom: -30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.work .work-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work .work-content .subjudul1 .subjudul2 .subjudul3 h3{
+    margin-top: 20px;
+}
+
+.work .work-content .subjudul1 p {
+   margin-top: 15px;
+   font-size: 16px;
+}
+
+.work .work-content .subjudul2 p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.work .work-content .subjudul3 p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.work .work-content .subjudul1 {
+    margin-top: 15px;
+}
+
+.work .work-content .subjudul2 {
+    margin-top: 15px;
+}
+
+.work .work-content .subjudul3 {
+    margin-top: 15px;
+}
+
+.work .work-content .subjudul1 {
+   color: #000;
+   font-size: 25px;
+}
+
+.work .work-content .subjudul2 {
+    color: #000;
+    font-size: 25px;
+}
+
+.work .work-content .subjudul3 {
+    color: #000;
+    font-size: 25px;
+}
+
+.work .work-content .subjudul1 i {
+    position: center;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.work .work-content .subjudul2 i {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.work .work-content .subjudul3 i {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.menu {
+    background-color: #FFE382;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.menu .judul h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu .isi p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+.card {
+    width: 350px;
+    margin: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    justify-content: space-between;
+  }
+  
+img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.card-content {
+    padding: 15px;
+  }
+  
+h3 {
+    margin-top: 0;
+  }
+  
+p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+.slider-container2 {
+    margin-top: 20px;
+}
+
+.card-content button {
+    background-color: #FFE382;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 99px;
+    margin-top: 8px;
+}
+
+.contact {
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.box {
+    width: 200px;
+    margin: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #FFE382;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact .map {
+    box-sizing: border-box;
+    width: 48%; /* Sesuaikan dengan kebutuhan desain Anda */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style tambahan jika diperlukan */
+@media screen and (max-width: 768px) {
+    .contact, .map {
+      width: 100%;
+    }
+}
+
+/* .contact .slider-container .slider .card {
+    width: 350px;
+    margin: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #FFE382;
+    justify-content: space-between;
+  } */
+
+ .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.lokasi h2 {
+    margin-top: 15px;
+}
+
+.no h2 {
+    margin-top: 15px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #FFE382;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    color: black;
+}
+
